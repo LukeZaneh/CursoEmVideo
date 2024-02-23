@@ -35,7 +35,7 @@ function adicionar() {
 }
 
 function finalizar() {
-  if(valores.lenth == 0) {
+  if(valores.length == 0) {
     window.alert('Adicione valores antes de finalizar!')
   } else {
     let tot = valores.length
